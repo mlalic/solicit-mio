@@ -1,0 +1,13 @@
+[package]
+name = "solicit-mio"
+version = "0.1.0"
+authors = ["Marko Lalic <marko.lalic@gmail.com>"]
+
+[dependencies]
+solicit = "0.4"
+mio = "*"
+log = "*"
+env_logger = "*"
+
+[dependencies.zukunft]
+git = "https://github.com/mlalic/zukunft.git"
